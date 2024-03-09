@@ -26,7 +26,7 @@
         <nav class="header-nav">
           <ul class="header-nav-list">
             <li class="header-nav-item">
-              <a class="link" href="./index.html">Studio</a>
+              <a class="link current" href="./index.html">Studio</a>
             </li>
             <li class="header-nav-item">
               <a class="link" href="./portfolio.html">Portfolio</a>
@@ -55,7 +55,7 @@
       <section class="hero">
         <div class="hero-container container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
 
@@ -64,6 +64,16 @@
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="advantages-list">
             <li class="advantages-item">
+              <div class="advantages-item-icon">
+                <svg
+                        class="company__icon"
+                        aria-label="antenna"
+                        width="64"
+                        height="64"
+                >
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="advantages-item-title">Strategy</h3>
               <p class="advantages-item-text">
                 Our goal is to identify the business problem to walk away with the
@@ -71,6 +81,16 @@
               </p>
             </li>
             <li class="advantages-item">
+              <div class="advantages-item-icon">
+                <svg
+                        class="company__icon"
+                        aria-label="clock"
+                        width="64"
+                        height="64"
+                >
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="advantages-item-title">Punctuality</h3>
               <p class="advantages-item-text">
                 Bring the key message to the brand's audience for the best price
@@ -78,6 +98,16 @@
               </p>
             </li>
             <li class="advantages-item">
+              <div class="advantages-item-icon">
+                <svg
+                        class="company__icon"
+                        aria-label="diagram"
+                        width="64"
+                        height="64"
+                >
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="advantages-item-title">Diligence</h3>
               <p class="advantages-item-text">
                 Research and confirm brands that present the strongest digital
@@ -85,6 +115,16 @@
               </p>
             </li>
             <li class="advantages-item">
+              <div class="advantages-item-icon">
+                <svg
+                        class="company__icon"
+                        aria-label="astronaut"
+                        width="64"
+                        height="64"
+                >
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="advantages-item-title">Technologies</h3>
               <p class="advantages-item-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -141,6 +181,56 @@
               <div class="team-item-content">
                 <h3 class="team-item-content-title">Mark Guerrero</h3>
                 <p class="team-item-content-text">Product Designer</p>
+                <ul class="team-icons-list">
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-instagram"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-twitter"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-facebook"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-linkedin"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-item">
@@ -153,6 +243,56 @@
               <div class="team-item-content">
                 <h3 class="team-item-content-title">Tom Ford</h3>
                 <p class="team-item-content-text">Frontend Developer</p>
+                <ul class="team-icons-list">
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-instagram"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-twitter"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-facebook"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-linkedin"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-item">
@@ -165,6 +305,56 @@
               <div class="team-item-content">
                 <h3 class="team-item-content-title">Camila Garcia</h3>
                 <p class="team-item-content-text">Marketing</p>
+                <ul class="team-icons-list">
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-instagram"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-twitter"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-facebook"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-linkedin"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-item">
@@ -177,7 +367,130 @@
               <div class="team-item-content">
                 <h3 class="team-item-content-title">Mark Guerrero</h3>
                 <p class="team-item-content-text">UI Designer</p>
+                <ul class="team-icons-list">
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-instagram"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-twitter"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-facebook"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-icons-item">
+                    <a href="" class="team-icon-item-link">
+                      <svg
+                              class="team-icon-item-icon"
+                              aria-label="icon-linkedin"
+                              width="16"
+                              height="16"
+                      >
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="customers">
+        <div class="container">
+          <h2 class="customers-title">Customers</h2>
+          <ul class="customers-list">
+            <li class="customers-item">
+              <a href="" class="customers-link"
+              ><svg
+                      aria-label="customers-icons"
+                      width="104"
+                      height="56"
+              >
+                <use href="./images/icons.svg#customers-logo-1"></use></svg
+              ></a>
+            </li>
+            <li class="customers-item">
+              <a href="" class="customers-link"
+              ><svg
+                      class="customers__icon"
+                      aria-label="customers-icons"
+                      width="104"
+                      height="56"
+              >
+                <use href="./images/icons.svg#customers-logo-2"></use></svg
+              ></a>
+            </li>
+            <li class="customers-item">
+              <a href="" class="customers-link"
+              ><svg
+                      class="customers__icon"
+                      aria-label="customers-icons"
+                      width="104"
+                      height="56"
+              >
+                <use href="./images/icons.svg#customers-logo-3"></use></svg
+              ></a>
+            </li>
+            <li class="customers-item">
+              <a href="" class="customers-link"
+              ><svg
+                      class="customers__icon"
+                      aria-label="customers-icons"
+                      width="104"
+                      height="56"
+              >
+                <use href="./images/icons.svg#customers-logo-4"></use></svg
+              ></a>
+            </li>
+            <li class="customers-item">
+              <a href="" class="customers-link"
+              ><svg
+                      class="customers__icon"
+                      aria-label="customers-icons"
+                      width="104"
+                      height="56"
+              >
+                <use href="./images/icons.svg#customers-logo-5"></use></svg
+              ></a>
+            </li>
+            <li class="customers-item">
+              <a href="" class="customers-link"
+              ><svg
+                      class="customers__icon"
+                      aria-label="customers-icons"
+                      width="104"
+                      height="56"
+              >
+                <use href="./images/icons.svg#customers-logo-6"></use></svg
+              ></a>
             </li>
           </ul>
         </div>
@@ -186,7 +499,7 @@
 
     <footer class="footer">
       <div class="footer-container container">
-        <div class="footer-wrapper">
+        <div class="footer-logo-wrapper">
           <a class="footer-logo logo logo-light link" href="./index.html"
           ><span>Web</span><span>STUDIO</span></a
           >
@@ -195,7 +508,77 @@
             marketing & growth solutions.
           </p>
         </div>
+        <div class="footer-icons-wrapper">
+          <p class="footer-icons-text">Social media</p>
+          <ul class="footer-icons-list">
+            <li class="footer-icons-item">
+              <a href="" class="footer-icons-item-link">
+                <svg
+                        class="footer-icons-item-icon"
+                        aria-label="icon-instagram"
+                        width="24"
+                        height="24"
+                >
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icons-item">
+              <a href="" class="footer-icons-item-link">
+                <svg
+                        class="footer-icons-item-icon"
+                        aria-label="icon-twitter"
+                        width="24"
+                        height="24"
+                >
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icons-item">
+              <a href="" class="footer-icons-item-link">
+                <svg
+                        class="footer-icons-item-icon"
+                        aria-label="icon-facebook"
+                        width="24"
+                        height="24"
+                >
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icons-item">
+              <a href="" class="footer-icons-item-link">
+                <svg
+                        class="footer-icons-item-icon"
+                        aria-label="icon-linkedin"
+                        width="24"
+                        height="24"
+                >
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-button-close" type="button" data-modal-close>
+          <svg
+                  class="modal-icon-close"
+                  aria-label="icon-modal-close"
+                  width="8"
+                  height="8"
+          >
+            <use href="./images/icons.svg#icon-modal-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
